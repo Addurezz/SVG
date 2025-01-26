@@ -34,6 +34,15 @@ class StarGenerator {
     file.writeAsStringSync(updatedSvgContent);
   }
 
+  /// Creates a rotating Star on a given SVG by appending it to the end
+  ///
+  /// Creates points on two circles in an alternating manner and connects them
+  ///
+  /// [cx] - x-Position on canvas
+  /// [cy] - y-Position on canvas
+  /// [startAngle] - initial angle on canvas
+  /// [inputFile] - The file to add the star to
+
   static void CreateStarSVG(
       double cx, double cy, double startAngle, String inputFile,
       {int points = 5,
