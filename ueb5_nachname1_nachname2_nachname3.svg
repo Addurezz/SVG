@@ -1,0 +1,87 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1920" height="1080" viewBox="0 0 100% 100%">
+  
+  <defs>
+    <linearGradient id="the_sky" x1="50%" y1="100%" x2="50%" y2="0%">
+			<stop offset="0%" stop-color="#f0f"/>
+			<stop offset="100%" stop-color="black" />
+		</linearGradient>
+    <polygon id="tree_polygon" points="50 0 70 40 100 80 50 70 0 80 30 40 50 0"/>
+    <g id="tree">
+      <use xlink:href="#tree_polygon" transform="translate(80, 000) scale(1.0)"/>
+      <use xlink:href="#tree_polygon" transform="translate(70, 015) scale(1.2)"/>
+      <use xlink:href="#tree_polygon" transform="translate(60, 030) scale(1.4)"/>
+      <use xlink:href="#tree_polygon" transform="translate(50, 045) scale(1.6)"/>
+      <use xlink:href="#tree_polygon" transform="translate(40, 060) scale(1.8)"/>
+      <use xlink:href="#tree_polygon" transform="translate(30, 075) scale(2.0)"/>
+      <use xlink:href="#tree_polygon" transform="translate(20, 090) scale(2.2)"/>
+      <use xlink:href="#tree_polygon" transform="translate(10, 105) scale(2.4)"/>
+      <use xlink:href="#tree_polygon" transform="translate(00, 120) scale(2.6)"/>
+    </g>
+  </defs>
+
+  <title>Weihnachtsmensch</title>
+
+  <rect x="0" y="0" width="1920" height="1080" fill="url(#the_sky)"/>
+
+  <g id="forest">
+    <use xlink:href="#tree" fill="black" transform="translate(0200, 600) scale(0.8)"/>
+    <use xlink:href="#tree" fill="white" transform="translate(0100, 570) scale(0.8)"/>
+    <use xlink:href="#tree" fill="black" transform="translate(1170, 400) scale(1.0)"/>
+    <use xlink:href="#tree" fill="black" transform="translate(1480, 450) scale(0.9)"/>
+    <use xlink:href="#tree" fill="white" transform="translate(1100, 500) scale(0.8)"/>
+    <use xlink:href="#tree" fill="white" transform="translate(1290, 340) scale(1.2)"/>
+    <use xlink:href="#tree" fill="white" transform="translate(1595, 510) scale(0.8)"/>
+  </g>
+
+  <g id="ground">
+    <ellipse cx="0" cy="1300" rx="1000" ry="500" fill="white"/>
+    <ellipse cx="1400" cy="1200" rx="1000" ry="500" fill="white"/>
+  </g>
+
+  <polygon id="star"
+    points=" 1077,424 1052,397 1014,403 1032,370 1014,337 1052,343 1077,316 1083,354 1117,370 1083,386 " fill="#ffd700">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 1060 370" to="360 1060 370"
+      dur="4s" repeatCount="indefinite"/>
+  </polygon>
+
+   <circle r="90" cx="900" cy="750" fill="brown"/>
+
+   <ellipse rx="100" ry="100" cx="800" cy="750" fill="#FF0000"/> 
+   <circle cx="700" cy="745" r="35" fill="#FFFFFF"/>
+   <circle cx="900" cy="710" r="35" fill="#FFFFFF"/>
+   
+   <ellipse rx="110" ry="90" cx="800" cy="600" fill="#f9dcb6"/>
+   <polygon points="800,750 700,625 900,625"   fill="white"/>
+
+   <ellipse rx="25" ry="40" cx="770" cy="575" fill="white"/> 
+   <ellipse rx="25" ry="40" cx="830" cy="575" fill="white"/> 
+   
+   <circle r="10" cx="770" cy="575" fill="black"/> 
+   <circle r="10" cx="830" cy="575" fill="black"/> 
+
+   <ellipse rx="35" ry="30" cx="800" cy="610" fill="purple"/> 
+   
+   <!--<polygon points="700,520 900,520 870,3 <path -->
+   
+     <path
+    d="M 700 520 
+    C 700 520, 980 520, 900 520 
+    C 940 460, 905 360, 870 350 
+    C 865 340, 780 480, 700 520 
+  
+    Z"
+    fill="red"
+  />
+  
+
+  <circle r="30" cx="870" cy="350" fill="white"/>
+
+   <rect width="200" height="35" fill="white" x="700" y="510"/>
+
+   <circle cx="750" cy="850" r="35" fill="#000000"/>
+   <circle cx="850" cy="850" r="35" fill="#000000"/>
+   
+
+</svg>
